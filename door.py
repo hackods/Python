@@ -268,7 +268,8 @@ def secret():
                 print("\tArthur: Next time you feel like ‘roamin,’ try not roamin' into places that ain’t yours.")
                 time.sleep(0.5)
                 print("\tArthur: Here’s somethin’ to chew on. I’m not sayin’ it’s easy, but you might just get it. What runs but never walks, has a bed but never sleeps, and can have a mouth but never talk?")
-                rd = int(input("\n1. A River \n2. A Train \n3. A Storm"))
+                print("\n1. A River \n2. A Train \n3. A Storm")
+                rd = int(input("Enter response: "))
 
                 if rd==1:
                     print("\tArthur: Huh, guess you ain’t as dumb as you look. Well done.")
@@ -286,7 +287,8 @@ def secret():
                 print("\tArthur: Mind my own business? Sure, just as soon as you find the door you came through.")
                 time.sleep(0.5)
                 print("What will you do?")
-                lv = int(input("\n1. Leave \n2. Stay"))
+                print("\n1. Leave \n2. Stay")
+                lv = int(input("Enter choice: "))
 
                 if lv==1:
                     print("\tArthur: Good. Door’s that way. Don’t let it hit ya on the way out")
@@ -300,7 +302,7 @@ def secret():
                     time.sleep(0.5)
 
                     print("You get in a standoff with Arthur.")
-                    guns=int(input("He gives you 3 guns to choose from, only one is loaded, choose the correct one."))
+                    guns=int(input("He gives you 3 guns to choose from, only one is loaded, choose the correct one:"))
                     gn = random.randint(1,3)
 
                     if guns==gn:
@@ -326,7 +328,7 @@ def secret():
                 print("\tArthur: You wanna play games? Fine, but don’t cry when it ends bad for you.")
                 time.sleep(0.5)
                 print("You get in a standoff with Arthur.")
-                guns=int(input("He gives you 3 guns to choose from, only one is loaded, choose the correct one."))
+                guns=int(input("He gives you 3 guns to choose from, only one is loaded, choose the correct one:"))
                 gn = random.randint(1,3)
 
                 if guns==gn:
@@ -347,7 +349,7 @@ def secret():
         print("Arthur: You don’t listen too well, do ya? I ain’t got time for this nonsense. You’re pushin’ your luck")
         time.sleep(0.5)
         print("You get in a standoff with Arthur.")
-        guns=int(input("He gives you 3 guns to choose from, only one is loaded, choose the correct one."))
+        guns=int(input("He gives you 3 guns to choose from, only one is loaded, choose the correct one:"))
         gn = random.randint(1,3)
 
         if guns==gn:
